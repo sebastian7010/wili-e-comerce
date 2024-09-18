@@ -1,0 +1,1110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #F24405;
+    padding: 1rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1.8rem;
+}
+
+.navbar-logo {
+    border-radius: 50px;
+    background-image: url(./assets/WhatsApp\ Image\ 2024-09-14\ at\ 11.12.43\ PM.jpeg);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.buy-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+    background: #45a049;
+}
+
+.navbar-logo,
+.navbar-user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+}
+
+.banner,
+.banner-1,
+.banner-2,
+.banner-5 {
+    background-color: #D92B04;
+    padding: 1rem;
+    margin-top: 20px;
+    border-radius: 25px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.banner-button,
+.banner-1-button,
+.banner-2-button,
+.banner-5-button {
+    width: 100%;
+    background-color: #D92B04;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    position: relative;
+    padding: 0 40px;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carousel-row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    padding-top: 100%;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.price {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #85bb65;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quantity button {
+    background: #f0f0f0;
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.quantity span {
+    margin: 0 10px;
+}
+
+.Comprar {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 14%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.buy-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.buy-btn:hover {
+    background: #45a049;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-arrow.left {
+    left: 0;
+}
+
+.carousel-arrow.right {
+    right: 0;
+}
+
+.about-us {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.about-us-banner {
+    background-color: #D92B04;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.about-us-content {
+    background-color: #FFB347;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.about-us-content h3 {
+    margin-bottom: 10px;
+}
+
+.banner-5 {
+    background-color: #D92B04;
+    padding: 1rem;
+    margin-top: 20px;
+    border-radius: 25px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-5-button {
+    width: 100%;
+    background-color: #D92B04;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.map-container {
+    max-width: 700px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.mapa {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contact-item {
+    flex: 1;
+}
+
+.contact-item h3 {
+    margin-bottom: 10px;
+    color: #D92B04;
+}
+
+.button-whatsapp,
+.button-instagram {
+    position: fixed;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    z-index: 1000;
+    cursor: pointer;
+    background-size: cover;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.button-whatsapp {
+    bottom: 410px;
+    right: -10px;
+}
+
+.button-instagram {
+    bottom: 330px;
+    right: -10px;
+}
+
+.button-whatsapp img,
+.button-instagram img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+
+/* Floating cart button */
+
+.floating-cart {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-button {
+    background-color: #25D366;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgb(242 68 5);
+    transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-button img {
+    width: 36px;
+    height: 36px;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover img {
+    transform: rotate(10deg);
+}
+
+#cartItemCount {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #FF4136;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.product-1 .product-image {
+    background-image: url('./assets/schemas/dulces/cajanucita.JPG');
+}
+
+.product-2 .product-image {
+    background-image: url('./assets/schemas/dulces/almendraz.JPG');
+}
+
+.product-3 .product-image {
+    background-image: url('./assets/schemas/dulces/anillobarbi.JPG');
+}
+
+.product-4 .product-image {
+    background-image: url('./assets/schemas/dulces/bianchi.JPG');
+}
+
+.product-5 .product-image {
+    background-image: url('./assets/schemas/dulces/bolsabombombun.JPG');
+}
+
+.product-6 .product-image {
+    background-image: url('./assets/schemas/dulces/bolsaokaloca.JPG');
+}
+
+.product-7 .product-image {
+    background-image: url('./assets/schemas/dulces/bolsatrululu.JPG');
+}
+
+.product-8 .product-image {
+    background-image: url('./assets/schemas/dulces/bolsojetgol.JPG');
+}
+
+.product-9 .product-image {
+    background-image: url('./assets/schemas/dulces/burbujet.JPG');
+}
+
+.product-10 .product-image {
+    background-image: url('./assets/schemas/dulces/cablesacidos.JPG');
+}
+
+.product-11 .product-image {
+    background-image: url('./assets/schemas/dulces/cablesverdes.JPG');
+}
+
+.product-12 .product-image {
+    background-image: url('./assets/schemas/dulces/cajabubalooomora.JPG');
+}
+
+.product-13 .product-image {
+    background-image: url('./assets/schemas/dulces/cajabubalu.JPG');
+}
+
+.product-14 .product-image {
+    background-image: url('./assets/schemas/dulces/cajacick.JPG');
+}
+
+.product-15 .product-image {
+    background-image: url('./assets/schemas/dulces/cajadrlocko.JPG');
+}
+
+.product-16 .product-image {
+    background-image: url('./assets/schemas/dulces/cajajet.JPG');
+}
+
+.product-17 .product-image {
+    background-image: url('./assets/schemas/dulces/cajajumbo.JPG');
+}
+
+.product-18 .product-image {
+    background-image: url('./assets/schemas/dulces/cajalechera.JPG');
+}
+
+.product-19 .product-image {
+    background-image: url('./assets/schemas/dulces/cajamani.JPG');
+}
+
+.product-20 .product-image {
+    background-image: url('./assets/schemas/dulces/cajanucitaavellana.JPG');
+}
+
+.product-21 .product-image {
+    background-image: url('./assets/schemas/dulces/cajanutella.JPG');
+}
+
+.product-22 .product-image {
+    background-image: url('./assets/schemas/dulces/cajapizza.JPG');
+}
+
+.product-23 .product-image {
+    background-image: url('./assets/schemas/dulces/cajarafaelo.JPG');
+}
+
+.product-24 .product-image {
+    background-image: url('./assets/schemas/dulces/cajasplot.JPG');
+}
+
+.product-25 .product-image {
+    background-image: url('./assets/schemas/dulces/cajasplot2.JPG');
+}
+
+.product-26 .product-image {
+    background-image: url('./assets/schemas/dulces/cajatraidentmora.JPG');
+}
+
+.product-27 .product-image {
+    background-image: url('./assets/schemas/dulces/cajatrident.JPG');
+}
+
+.product-28 .product-image {
+    background-image: url('./assets/schemas/dulces/canelazo.JPG');
+}
+
+.product-29 .product-image {
+    background-image: url('./assets/schemas/dulces/caramelonucita.JPG');
+}
+
+.product-30 .product-image {
+    background-image: url('./assets/schemas/dulces/chaofresa.JPG');
+}
+
+.product-31 .product-image {
+    background-image: url('./assets/schemas/dulces/chaolimon.JPG');
+}
+
+.product-32 .product-image {
+    background-image: url('./assets/schemas/dulces/chocobrack.JPG');
+}
+
+.product-33 .product-image {
+    background-image: url('./assets/schemas/dulces/chocoDisck.JPG');
+}
+
+.product-34 .product-image {
+    background-image: url('./assets/schemas/dulces/chocoitalo.JPG');
+}
+
+.product-35 .product-image {
+    background-image: url('./assets/schemas/dulces/chocolateferrero.JPG');
+}
+
+.product-36 .product-image {
+    background-image: url('./assets/schemas/dulces/chocorramomiti.JPG');
+}
+
+.product-37 .product-image {
+    background-image: url('./assets/schemas/dulces/chocostop.JPG');
+}
+
+.product-38 .product-image {
+    background-image: url('./assets/schemas/dulces/cintasacidas.JPG');
+}
+
+.product-39 .product-image {
+    background-image: url('./assets/schemas/dulces/dulcezandia.JPG');
+}
+
+.product-40 .product-image {
+    background-image: url('./assets/schemas/dulces/espumoso+blanco.JPG');
+}
+
+.product-41 .product-image {
+    background-image: url('./assets/schemas/dulces/espumoso+chocolate.JPG');
+}
+
+.product-42 .product-image {
+    background-image: url('./assets/schemas/dulces/espumoso.JPG');
+}
+
+.product-43 .product-image {
+    background-image: url('./assets/schemas/dulces/festables.JPG');
+}
+
+.product-44 .product-image {
+    background-image: url('./assets/schemas/dulces/galletasnucita.JPG');
+}
+
+.product-45 .product-image {
+    background-image: url('./assets/schemas/dulces/mentashielo.JPG');
+}
+
+.product-46 .product-image {
+    background-image: url('./assets/schemas/dulces/mix3.JPG');
+}
+
+.product-47 .product-image {
+    background-image: url('./assets/schemas/dulces/mix4.JPG');
+}
+
+.product-48 .product-image {
+    background-image: url('./assets/schemas/dulces/mix6.JPG');
+}
+
+.product-49 .product-image {
+    background-image: url('./assets/schemas/dulces/mixlecheras.JPG');
+}
+
+.product-50 .product-image {
+    background-image: url('./assets/schemas/dulces/okalocabolsaxs.JPG');
+}
+
+.product-51 .product-image {
+    background-image: url('./assets/schemas/dulces/okalocapolvocaja.JPG');
+}
+
+.product-52 .product-image {
+    background-image: url('./assets/schemas/dulces/ponkis.JPG');
+}
+
+.product-53 .product-image {
+    background-image: url('./assets/schemas/dulces/rafaelx3.JPG');
+}
+
+.product-54 .product-image {
+    background-image: url('./assets/schemas/dulces/revolcon.JPG');
+}
+
+.product-55 .product-image {
+    background-image: url('./assets/schemas/dulces/tarronucita.JPG');
+}
+
+.product-56 .product-image {
+    background-image: url('./assets/schemas/dulces/tridentfresa.JPG');
+}
+
+.product-57 .product-image {
+    background-image: url('./assets/schemas/dulces/tridentmix4.JPG');
+}
+
+.product-58 .product-image {
+    background-image: url('./assets/schemas/dulces/tridentvatios.JPG');
+}
+
+.product-59 .product-image {
+    background-image: url('./assets/schemas/dulces/trululug.JPG');
+}
+
+.product-60 .product-image {
+    background-image: url('./assets/schemas/dulces/uvaschevres.JPG');
+}
+
+.product-61 .product-image {
+    background-image: url('./assets/schemas/lote2/almendrasxl.JPG');
+}
+
+.product-62 .product-image {
+    background-image: url('./assets/schemas/lote2/cajafestables.JPG');
+}
+
+.product-63 .product-image {
+    background-image: url('./assets/schemas/lote2/cajapunsh.JPG');
+}
+
+.product-64 .product-image {
+    background-image: url('./assets/schemas/lote2/chocloate\ jombo.JPG');
+}
+
+.product-65 .product-image {
+    background-image: url('./assets/schemas/lote2/festablescrunch.JPG');
+}
+
+.product-66 .product-image {
+    background-image: url('./assets/schemas/lote2/festablesmani.JPG');
+}
+
+.product-67 .product-image {
+    background-image: url('./assets/schemas/lote2/festablesmilk.JPG');
+}
+
+.product-68 .product-image {
+    background-image: url('./assets/schemas/lote2/hairheads.JPG');
+}
+
+.product-69 .product-image {
+    background-image: url('./assets/schemas/lote2/jumbo\ requipe.JPG');
+}
+
+.product-70 .product-image {
+    background-image: url('./assets/schemas/lote2/kinder\ bueno.JPG');
+}
+
+.product-71 .product-image {
+    background-image: url('./assets/schemas/lote2/kitkat4.JPG');
+}
+
+.product-72 .product-image {
+    background-image: url('./assets/schemas/lote2/minikinder4.JPG');
+}
+
+.product-73 .product-image {
+    background-image: url('./assets/schemas/lote2/nerds.JPG');
+}
+
+.product-74 .product-image {
+    background-image: url('./assets/schemas/lote2/pushpop.JPG');
+}
+
+.product-75 .product-image {
+    background-image: url('./assets/schemas/lote2/ringpop.JPG');
+}
+
+.product-76 .product-image {
+    background-image: url('./assets/schemas/lote2/teteroazul.JPG');
+}
+
+.product-77 .product-image {
+    background-image: url('./assets/schemas/lote2/teteromorazul.JPG');
+}
+
+.product-78 .product-image {
+    background-image: url('./assets/schemas/lote2/teterorosa.JPG');
+}
+
+.product-79 .product-image {
+    background-image: url('./assets/schemas/lote2/wubaazul.JPG');
+}
+
+.product-80 .product-image {
+    background-image: url('./assets/schemas/lote2/wubafresa.JPG');
+}
+
+.product-81 .product-image {
+    background-image: url('./assets/schemas/lote3/7ceracapilar.JPG');
+}
+
+.product-82 .product-image {
+    background-image: url('./assets/schemas/lote3/labial.JPG');
+}
+
+.product-83 .product-image {
+    background-image: url('./assets/schemas/lote3/bolso\ tomy.JPG');
+}
+
+.product-84 .product-image {
+    background-image: url('./assets/schemas/lote3/splashbody5.JPG');
+}
+
+.product-85 .product-image {
+    background-image: url('./assets/schemas/lote3/cajas.JPG');
+}
+
+.product-86 .product-image {
+    background-image: url('./assets/schemas/lote3/camarafacial.JPG');
+}
+
+.product-87 .product-image {
+    background-image: url('./assets/schemas/lote3/carteratomy.JPG');
+}
+
+.product-88 .product-image {
+    background-image: url('./assets/schemas/lote3/ceracapilar.JPG');
+}
+
+.product-89 .product-image {
+    background-image: url('./assets/schemas/lote3/cerakitcapilar.JPG');
+}
+
+.product-90 .product-image {
+    background-image: url('./assets/schemas/lote3/geldeducha.JPG');
+}
+
+.product-91 .product-image {
+    background-image: url('./assets/schemas/lote3/jabonbaño.JPG');
+}
+
+.product-92 .product-image {
+    background-image: url('./assets/schemas/lote3/jabonbaño2.JPG');
+}
+
+.product-93 .product-image {
+    background-image: url('./assets/schemas/lote3/jabonbaño3.JPG');
+}
+
+.product-94 .product-image {
+    background-image: url('./assets/schemas/lote3/jabonbaño5.JPG');
+}
+
+.product-95 .product-image {
+    background-image: url('./assets/schemas/lote3/jabonbaño6.JPG');
+}
+
+.product-96 .product-image {
+    background-image: url('./assets/schemas/lote3/jabonbaño7.JPG');
+}
+
+.product-97 .product-image {
+    background-image: url('./assets/schemas/lote3/jabonbaño8.JPG');
+}
+
+.product-98 .product-image {
+    background-image: url('./assets/schemas/lote3/jabonbaño9.JPG');
+}
+
+.product-99 .product-image {
+    background-image: url('./assets/schemas/lote3/kit\ 9\ ceracapilar.JPG');
+}
+
+.product-100 .product-image {
+    background-image: url('./assets/schemas/lote3/labial.JPG');
+}
+
+.product-101 .product-image {
+    background-image: url('./assets/schemas/lote3/labialrosa.JPG');
+}
+
+.product-102 .product-image {
+    background-image: url('./assets/schemas/lote3/locionbody.JPG');
+}
+
+.product-103 .product-image {
+    background-image: url('./assets/schemas/lote3/masajeadorcapilar.JPG');
+}
+
+.product-104 .product-image {
+    background-image: url('./assets/schemas/lote3/moña1.JPG');
+}
+
+.product-105 .product-image {
+    background-image: url('./assets/schemas/lote3/moña10.JPG');
+}
+
+.product-106 .product-image {
+    background-image: url('./assets/schemas/lote3/moña11.JPG');
+}
+
+.product-107 .product-image {
+    background-image: url('./assets/schemas/lote3/moña2.JPG');
+}
+
+.product-108 .product-image {
+    background-image: url('./assets/schemas/lote3/moña3.JPG');
+}
+
+.product-109 .product-image {
+    background-image: url('./assets/schemas/lote3/moña4.JPG');
+}
+
+.product-110 .product-image {
+    background-image: url('./assets/schemas/lote3/moña5.JPG');
+}
+
+.product-111 .product-image {
+    background-image: url('./assets/schemas/lote3/moña6.JPG');
+}
+
+.product-112 .product-image {
+    background-image: url('./assets/schemas/lote3/moña7.JPG');
+}
+
+.product-113 .product-image {
+    background-image: url('./assets/schemas/lote3/moña9.JPG');
+}
+
+.product-114 .product-image {
+    background-image: url('./assets/schemas/lote3/moñas.JPG');
+}
+
+.product-115 .product-image {
+    background-image: url('./assets/schemas/lote3/splashbody.JPG');
+}
+
+.product-116 .product-image {
+    background-image: url('./assets/schemas/lote3/splashbody2.JPG');
+}
+
+.product-117 .product-image {
+    background-image: url('./assets/schemas/lote3/splashbody3.JPG');
+}
+
+.product-118 .product-image {
+    background-image: url('./assets/schemas/lote3/splashbody4.JPG');
+}
+
+.product-119 .product-image {
+    background-image: url('./assets/schemas/lote3/splashbody5.JPG');
+}
+
+.product-120 .product-image {
+    background-image: url('./assets/schemas/lote3/splashboydy6.JPG');
+}
+
+.product-121 .product-image {
+    background-image: url('./assets/schemas/lote3/toallitaaironman.JPG');
+}
+
+.product-122 .product-image {
+    background-image: url('./assets/schemas/lote3/toallitacapitan.JPG');
+}
+
+.product-123 .product-image {
+    background-image: url('./assets/schemas/lote3/toallitaencanto.JPG');
+}
+
+.product-124 .product-image {
+    background-image: url('./assets/schemas/lote3/toallitamikie.JPG');
+}
+
+.product-125 .product-image {
+    background-image: url('./assets/schemas/lote3/toallitamini.JPG');
+}
+
+.product-126 .product-image {
+    background-image: url('./assets/schemas/lote3/toallitapricesa.JPG');
+}
+
+.product-127 .product-image {
+    background-image: url('./assets/schemas/lote3/toallitaspidermdan.JPG');
+}
+
+.product-128 .product-image {
+    background-image: url('./assets/schemas/lote3/toallitathor.JPG');
+}
+
+.product-129 .product-image {
+    background-image: url('./assets/schemas/lote3/tomy\ verde.JPG');
+}
+
+.product-130 .product-image {
+    background-image: url('./assets/schemas/lote3/tomyazul.JPG');
+}
+
+.product-131 .product-image {
+    background-image: url('./assets/schemas/anchetas/ancheta1.JPG');
+}
+
+.product-132 .product-image {
+    background-image: url('./assets/schemas/anchetas/ancheta2.JPG');
+}
+
+.product-133 .product-image {
+    background-image: url('./assets/schemas/anchetas/ancheta3.JPG');
+}
+
+.product-134 .product-image {
+    background-image: url('./assets/schemas/anchetas/ancheta4.JPG');
+}
+
+.product-135 .product-image {
+    background-image: url('./assets/schemas/anchetas/ancheta6.JPG');
+}
+
+.product-136 .product-image {
+    background-image: url('./assets/schemas/anchetas/ancheta7.JPG');
+}
+
+.product-137 .product-image {
+    background-image: url('./assets/schemas/anchetas/ancheta8.JPG');
+}
+
+.product-138 .product-image {
+    background-image: url('./assets/schemas/anchetas/ancheta9.JPG');
+}
+
+.product-139 .product-image {
+    background-image: url('./assets/schemas/anchetas/WhatsApp\ Image\ 2024-09-16\ at\ 3.16.12\ PM.jpeg');
+}
+
+
+/* Mejoras para dispositivos móviles - Agregar al final del CSS existente */
+
+@media screen and (max-width: 768px) {
+    /* Ajustes generales */
+    body {
+        font-size: 14px;
+    }
+    /* Navbar */
+    .navbar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-menu {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .navbar-menu a {
+        margin: 0.5rem 0;
+    }
+    .navbar-logo,
+    .navbar-user {
+        width: 80px;
+        height: 80px;
+    }
+    /* Banners */
+    .banner,
+    .banner-1,
+    .banner-2,
+    .banner-5 {
+        max-width: 90%;
+        padding: 0.5rem;
+    }
+    .banner-button,
+    .banner-1-button,
+    .banner-2-button,
+    .banner-5-button {
+        font-size: 1.2rem;
+        padding: 8px 16px;
+    }
+    /* Carrusel de productos */
+    .carousel-container {
+        padding: 0 20px;
+    }
+    .carousel-row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .product {
+        padding: 5px;
+    }
+    .price {
+        font-size: 0.9rem;
+    }
+    .quantity button {
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+    }
+    .buy-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    /* About Us */
+    .about-us {
+        max-width: 90%;
+    }
+    .about-us-content {
+        font-size: 1.2rem;
+    }
+    /* Mapa */
+    .mapa {
+        height: 300px;
+    }
+    /* Información de contacto */
+    .contact-info {
+        flex-direction: column;
+    }
+    .contact-item {
+        margin-bottom: 1rem;
+    }
+    /* Botones flotantes */
+    .button-whatsapp,
+    .button-instagram {
+        width: 60px;
+        height: 60px;
+        right: 10px;
+    }
+    .button-whatsapp {
+        bottom: 80px;
+    }
+    .button-instagram {
+        bottom: 150px;
+    }
+    /* Carrito flotante */
+    .floating-cart {
+        bottom: 10px;
+        left: 10px;
+    }
+    .whatsapp-button {
+        width: 50px;
+        height: 50px;
+    }
+    .whatsapp-button img {
+        width: 30px;
+        height: 30px;
+    }
+    #cartItemCount {
+        font-size: 10px;
+        padding: 1px 4px;
+    }
+}
+
+
+/* Ajustes adicionales para pantallas muy pequeñas */
+
+@media screen and (max-width: 320px) {
+    .carousel-row {
+        grid-template-columns: 1fr;
+    }
+    .navbar-logo,
+    .navbar-user {
+        width: 60px;
+        height: 60px;
+    }
+    .button-whatsapp,
+    .button-instagram {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* Mejoras generales de accesibilidad y usabilidad */
+
+* {
+    touch-action: manipulation;
+}
+
+input,
+button,
+select,
+textarea {
+    font-size: 16px;
+    /* Previene el zoom automático en iOS */
+}
+
+.buy-btn,
+.banner-button,
+.banner-1-button,
+.banner-2-button,
+.banner-5-button {
+    display: inline-block;
+    min-height: 44px;
+    line-height: 15px;
+    text-align: center;
+}

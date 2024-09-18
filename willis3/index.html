@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilor - Dulces y Accesorios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <img src="assets/logo.png" class="navbar-logo">
+            <div class="navbar-menu">
+                <a href="#productos">Productos</a>
+                <a href="#accesorios">Accesorios</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#conocenos">Conócenos</a>
+                <a href="#visitanos">Visítanos</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section id="productos" class="banner">
+                <h2>Endulza tu vida con nuestros productos</h2>
+            </section>
+
+            <div class="carousel-container">
+                <button class="carousel-arrow left" onclick="prevPage(0)">&lt;</button>
+                <div id="carousel-0" class="carousel">
+                    <div id="carousel-row-1-0" class="carousel-row"></div>
+                    <div id="carousel-row-2-0" class="carousel-row"></div>
+                </div>
+                <button class="carousel-arrow right" onclick="nextPage(0)">&gt;</button>
+            </div>
+
+            <section id="accesorios" class="banner">
+                <h2>Luce a la moda</h2>
+            </section>
+
+            <div class="carousel-container">
+                <button class="carousel-arrow left" onclick="prevPage(1)">&lt;</button>
+                <div id="carousel-1" class="carousel">
+                    <div id="carousel-row-1-1" class="carousel-row"></div>
+                    <div id="carousel-row-2-1" class="carousel-row"></div>
+                </div>
+                <button class="carousel-arrow right" onclick="nextPage(1)">&gt;</button>
+            </div>
+
+            <section id="servicios" class="banner">
+                <h2>Descubre nuestros servicios</h2>
+            </section>
+
+            <div class="carousel-container">
+                <button class="carousel-arrow left" onclick="prevPage(2)">&lt;</button>
+                <div id="carousel-2" class="carousel">
+                    <div id="carousel-row-1-2" class="carousel-row"></div>
+                    <div id="carousel-row-2-2" class="carousel-row"></div>
+                </div>
+                <button class="carousel-arrow right" onclick="nextPage(2)">&gt;</button>
+            </div>
+
+            <section id="conocenos" class="about-us">
+                <div class="about-us-banner">
+                    <h2>Quienes somos</h2>
+                </div>
+                <div class="about-us-content">
+                    <h3>Conócenos</h3>
+                    <p>Todo con Wilor es tu destino ideal para endulzar la vida de cualquier persona. Ofrecemos una amplia variedad de dulces nacionales e internacionales, perfectos para todos los gustos. Además, creamos anchetas personalizadas para ocasiones
+                        especiales y vendemos accesorios importados como bolsos, billeteras, jabones aromáticos y joyas, ideales para regalar.</p>
+                </div>
+            </section>
+
+            <section id="visitanos" class="banner">
+                <h2>Donde encontrarnos</h2>
+            </section>
+
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.218519209385!2d-74.05047751781709!3d4.732065948507979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f856c621f3223%3A0xd79be4e932d5fccf!2sCl.%20150%20%2345-35%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1726530818541!5m2!1ses-419!2sco"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <p>+57 323 7342020</p>
+                </div>
+                <div class="contact-item">
+                    <p>Calle150#45-35</p>
+                </div>
+                <div class="contact-item">
+                    <p>todo_con_wilor</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="button-whatsapp">
+        <a href="https://wa.me/573237342020" target="_blank">
+            <img src="./assets/noun-whatsapp-7162862.svg" alt="WhatsApp" />
+        </a>
+    </div>
+
+    <div class="button-instagram">
+        <a href="https://www.instagram.com/todo_con_wilor" target="_blank">
+            <img src="./assets/noun-instagram-7084722.svg" alt="Instagram" />
+        </a>
+    </div>
+
+    <div class="floating-cart">
+        <button id="sendWhatsAppButton" class="whatsapp-button" onclick="sendCombinedWhatsAppMessage()">
+            <img src="./assets/noun-shopping-cart-357434.svg" alt="WhatsApp" />
+            <span id="cartItemCount">0</span>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

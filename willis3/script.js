@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const carousels = [{
         id: 0,
         products: [
-            { id: 1, name: "caja nucita", price: 14300 },
+            { id: 1, name: "caja nucita", price: 90909090909 },
             { id: 2, name: "almendraz", price: 39999 },
             { id: 3, name: "anillo barbi", price: 59999 },
             { id: 4, name: "bianchi", price: 29999 },

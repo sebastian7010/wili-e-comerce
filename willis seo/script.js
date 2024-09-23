@@ -5,63 +5,63 @@ document.addEventListener('DOMContentLoaded', function() {
 const carousels = [{
         id: 0,
         products: [
-            { id: 1, name: "caja nucita", price: 90909090909 },
-            { id: 2, name: "almendraz", price: 39999 },
-            { id: 3, name: "anillo barbi", price: 59999 },
-            { id: 4, name: "bianchi", price: 29999 },
-            { id: 5, name: "bolsa bombombun", price: 49999 },
-            { id: 6, name: "bolsa okaloca", price: 34999 },
-            { id: 7, name: "bolsa trululu", price: 54999 },
-            { id: 8, name: "bolsa jetgol", price: 44999 },
-            { id: 9, name: "burbujet", price: 45999 },
-            { id: 10, name: "cables ácidos", price: 39999 },
-            { id: 11, name: "cables verdes", price: 35999 },
-            { id: 12, name: "caja bubaloo mora", price: 28999 },
-            { id: 13, name: "caja bubalu", price: 27999 },
-            { id: 14, name: "caja cick", price: 26999 },
-            { id: 15, name: "caja dr locko", price: 30999 },
-            { id: 16, name: "caja jet", price: 33999 },
-            { id: 17, name: "caja jumbo", price: 31999 },
-            { id: 18, name: "caja lechera", price: 36999 },
-            { id: 19, name: "caja mani", price: 37999 },
-            { id: 20, name: "caja nucita avellana", price: 34300 },
-            { id: 21, name: "caja nutella", price: 39999 },
-            { id: 22, name: "caja pizza", price: 28999 },
-            { id: 23, name: "caja rafaelo", price: 42999 },
-            { id: 24, name: "caja splot", price: 29999 },
-            { id: 25, name: "caja splot 2", price: 34999 },
-            { id: 26, name: "caja traident mora", price: 24999 },
-            { id: 27, name: "caja trident", price: 27999 },
-            { id: 28, name: "canelazo", price: 25999 },
-            { id: 29, name: "caramelo nucita", price: 25999 },
-            { id: 30, name: "chao fresa", price: 30999 },
-            { id: 31, name: "chao limon", price: 26999 },
-            { id: 32, name: "choco brack", price: 27999 },
-            { id: 33, name: "choco disck", price: 39999 },
-            { id: 34, name: "choco italo", price: 29999 },
-            { id: 35, name: "chocolate ferrero", price: 45999 },
-            { id: 36, name: "chocorramo miti", price: 38999 },
-            { id: 37, name: "choco stop", price: 36999 },
-            { id: 38, name: "cintas ácidas", price: 31999 },
-            { id: 39, name: "dulce zandía", price: 33999 },
-            { id: 40, name: "espumoso blanco + chocolate blanco", price: 28999 },
-            { id: 41, name: "espumoso + chocolate", price: 30999 },
-            { id: 42, name: "espumoso", price: 29999 },
-            { id: 43, name: "festables", price: 35999 },
-            { id: 44, name: "galletas nucita", price: 39999 },
-            { id: 45, name: "mentas hielo", price: 27999 },
-            { id: 46, name: "mix 3", price: 39999 },
-            { id: 47, name: "mix 4", price: 41999 },
-            { id: 48, name: "mix 6", price: 41999 },
-            { id: 49, name: "mix x3 lecheras", price: 36999 },
-            { id: 50, name: "okaloca bolsa xs", price: 29999 },
-            { id: 51, name: "okaloca polvo caja", price: 31999 },
-            { id: 52, name: "ponkis", price: 32999 },
-            { id: 53, name: "rafael x3", price: 45999 },
-            { id: 54, name: "revolcón", price: 34999 },
-            { id: 55, name: "tarro nucita", price: 39999 },
-            { id: 56, name: "trident fresa", price: 29999 },
-            { id: 57, name: "trident mix 4", price: 31999 },
+            { id: 1, name: "caja nucita", price: 9500 },
+            { id: 2, name: "almendraz", price: 13800 },
+            { id: 3, name: "anillo barbi", price: 26100 },
+            { id: 4, name: "bianchi", price: 2500 },
+            { id: 5, name: "bolsa bombombun X24", price: 11900 },
+            { id: 6, name: "bolsa okaloca", price: 17800 },
+            { id: 7, name: "bolsa trululu", price: 3300 },
+            { id: 8, name: "bolsa jetgol", price: 31800 },
+            { id: 9, name: "burbujet", price: 4800 },
+            { id: 10, name: "cables ácidos", price: 17800 },
+            { id: 11, name: "cables verdes", price: 17800 },
+            { id: 12, name: "caja bubaloo mora", price: 13900 },
+            { id: 13, name: "caja bubalu", price: 13900 },
+            { id: 14, name: "caja kick", price: 20200 },
+            { id: 15, name: "caja dr locko", price: 39000 },
+            { id: 16, name: "caja jet", price: 45800 },
+            { id: 17, name: "caja jumbo", price: 78000 },
+            { id: 18, name: "caja lechera", price: 26500 },
+            { id: 19, name: "caja mani arándanos", price: 40600 },
+            { id: 20, name: "caja nucita avellana", price: 14300 },
+            { id: 21, name: "caja nutella", price: 14300 },
+            { id: 22, name: "caja pizza", price: 12000 },
+            { id: 23, name: "caja rafaelo", price: 34000 },
+            { id: 24, name: "caja splot", price: 11000 },
+            { id: 25, name: "caja splot 2", price: 1200 },
+            { id: 26, name: "caja traident mora", price: 24700 },
+            { id: 27, name: "caja trident", price: 24700 },
+            { id: 28, name: "caja trident x60", price: 14700 },
+            { id: 29, name: "canelazo", price: 11000 },
+            { id: 30, name: "caramelo nucita", price: 15600 },
+            { id: 31, name: "chao fresa", price: 11300 },
+            { id: 32, name: "chao limón", price: 18100 },
+            { id: 33, name: "choco brack", price: 17800 },
+            { id: 34, name: "choco disck", price: 18400 },
+            { id: 35, name: "choco italo", price: 9400 },
+            { id: 36, name: "chocolate ferrero", price: 35000 },
+            { id: 37, name: "chocorramo miti", price: 3600 },
+            { id: 38, name: "choco stop", price: 27800 },
+            { id: 39, name: "cintas ácidas", price: 17900 },
+            { id: 40, name: "dulce zandía", price: 18700 },
+            { id: 41, name: "espumoso blanco", price: 21800 },
+            { id: 42, name: "espumoso chocolate", price: 21500 },
+            { id: 43, name: "festables", price: 12000 },
+            { id: 44, name: "galletas nucita", price: 1500 },
+            { id: 45, name: "mentas hielo", price: 2000 },
+            { id: 46, name: "mix 3", price: 73200 },
+            { id: 47, name: "mix 4", price: 76300 },
+            { id: 48, name: "mix 6", price: 15000 },
+            { id: 49, name: "mix lecheras", price: 26900 },
+            { id: 50, name: "okaloca bolsa xs", price: 2000 },
+            { id: 51, name: "okaloca polvo caja", price: 11500 },
+            { id: 52, name: "ponkis", price: 2000 },
+            { id: 53, name: "rafael x3", price: 6800 },
+            { id: 54, name: "revolcón unidad", price: 800 },
+            { id: 55, name: "tarro nucita", price: 21900 },
+            { id: 56, name: "trident fresa", price: 24700 },
+            { id: 57, name: "trident mix 4", price: 24700 },
             { id: 58, name: "trident caja", price: 34999 },
             { id: 59, name: "trululu g", price: 30999 },
             { id: 60, name: "uvas chevres", price: 36999 },
@@ -73,7 +73,7 @@ const carousels = [{
             { id: 66, name: "festables mani", price: 39999 },
             { id: 67, name: "festables mora", price: 29999 },
             { id: 68, name: "hair heads", price: 31999 },
-            { id: 69, name: "jumbo naranaja", price: 34999 },
+            { id: 69, name: "jumbo naranja", price: 34999 },
             { id: 71, name: "choco bueno", price: 30999 },
             { id: 72, name: "kit kat x4", price: 29999 },
             { id: 73, name: "kinder x4", price: 31999 },
@@ -266,26 +266,6 @@ function buyProduct(productName, button) {
     }
 }
 
-function sendCombinedWhatsAppMessage() {
-    if (Object.keys(cart).length === 0) {
-        alert('Por favor, seleccione al menos un producto antes de enviar el mensaje.');
-        return;
-    }
-
-    let message = "Hola, quiero comprar los siguientes productos:\n\n";
-
-    Object.entries(cart).forEach(([carouselId, products]) => {
-        message += `Carrusel ${parseInt(carouselId) + 1}:\n`;
-        Object.values(products).forEach(product => {
-            message += `- ${product.quantity} unidades de ${product.name}\n`;
-        });
-        message += "\n";
-    });
-
-    const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/573237342020?text=${encodedMessage}`, '_blank');
-}
-
 function handleResize() {
     const width = window.innerWidth;
     let newProductsPerPage;
@@ -312,4 +292,22 @@ function initializeCarousels() {
     carousels.forEach(carousel => renderCarousel(carousel));
 }
 
-window.addEventListener('resize', handleResize);
+function toggleMenu() {
+    const menu = document.querySelector('.navbar-menu');
+    menu.classList.toggle('active');
+}
+// Espera a que el DOM esté completamente cargado antes de agregar el evento
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerButton = document.querySelector('.hamburger-menu');
+    if (hamburgerButton) {
+        hamburgerButton.addEventListener('click', toggleMenu);
+    }
+
+});
+document.querySelector('.hamburger-menu').addEventListener('click', function() {
+    document.querySelector('.navbar-menu').classList.toggle('active');
+});
+
+
+// Elimina esta línea si está presente, ya que ahora manejamos el evento en DOMContentLoaded
+// document.querySelector('.hamburger-menu').addEventListener('click', toggleMenu);
